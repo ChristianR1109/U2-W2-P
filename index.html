@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Homepage</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-netflix m-3">
+      <div class="container">
+        <div class="d-flex align-items-center m-1">
+          <a class="navbar-brand" href="#">
+            <img height="40" src="Netflix-assets/assets/netflix_logo.png" />
+          </a>
+
+          <ul class="text-white list-unstyled d-flex m-0 d-none d-lg-flex">
+            <li class="m-2">
+              <a class="pointer text-white text-decoration-none">Home</a>
+            </li>
+
+            <li class="m-2"><a class="pointer text-white text-decoration-none">TV Shows</a></li>
+
+            <li class="m-2"><a class="pointer text-white text-decoration-none">Movies</a></li>
+
+            <li class="m-2"><a class="pointer text-white text-decoration-none">Recently Added</a></li>
+            <li class="m-2"><a class="pointer text-white text-decoration-none">My List</a></li>
+          </ul>
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="bi bi-search text-white pe-4 d-none d-sm-flex"></i>
+          <span class="text-white pe-4 d-none d-sm-flex">KIDS</span>
+          <div class="dropdown">
+            <a class="btn dropdown-toggle text-white" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="./Netflix-assets/assets/avatar.png" height="40px" />
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end bg-netflix">
+              <li><a class="dropdown-item text-white" href="#">PROFILE</a></li>
+              <li><a class="dropdown-item text-white" href="#">FILM</a></li>
+              <li><a class="dropdown-item text-white" href="#">SETTINGS</a></li>
+              <li>
+                <div class="px-3 dropdown-toggle text-white borderhover w-50 m-2">
+                  <img src="./Netflix-assets/assets/avatar.png" height="40px " />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center mt-2">
+          <h1>TV Shows</h1>
+          <div class="dropdown mx-4 bg-black border-1 w-border">
+            <a class="btn dropdown-toggle text-white" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"> Genres </a>
+            <ul class="dropdown-menu dropdown-menu-end bg-netflix">
+              <li><a class="dropdown-item text-white" href="#">ACTION</a></li>
+              <li><a class="dropdown-item text-white" href="#">COMEDY</a></li>
+              <li><a class="dropdown-item text-white" href="#">DRAMAS</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-flex text-white">
+          <div class="border-1 w-border px-2"><i class="bi bi-text-left"></i></div>
+          <div class="border-1 w-border px-2">
+            <i class="bi bi-grid"></i>
+          </div>
+        </div>
+      </div>
+      <h3 class="text-white mt-4">Trending Now</h3>
+      <div class="row container-fluid p-0 mt-3">
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 p-0 gy-2">
+          <div class="card border-0">
+            <img src="./Netflix-assets/assets/media/media0.webp" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 p-0 gy-2">
+          <div class="card border-0">
+            <img src="./Netflix-assets/assets/media/media1.jpg" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 p-0 gy-2">
+          <div class="card border-0">
+            <img src="./Netflix-assets/assets/media/media2.webp" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 p-0 gy-2">
+          <div class="card border-0">
+            <img src="./Netflix-assets/assets/media/media3.webp" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 p-0 gy-2">
+          <div class="card border-0">
+            <img src="./Netflix-assets/assets/media/media4.jpg" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 p-0 gy-2">
+          <div class="card border-0">
+            <img src="./Netflix-assets/assets/media/media5.webp" />
+          </div>
+        </div>
+      </div>
+      <h3 class="text-white mt-5">Watch It Again</h3>
+      <div class="row container-fluid p-0 mt-3">
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 p-0 gy-2">
+          <div class="card border-0">
+            <img src="./Netflix-assets/assets/media/media6.jpg" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 p-0 gy-2">
+          <div class="card border-0">
+            <img src="./Netflix-assets/assets/media/media7.webp" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 p-0 gy-2">
+          <div class="card border-0">
+            <img src="./Netflix-assets/assets/media/media8.webp" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 p-0 gy-2">
+          <div class="card border-0">
+            <img src="./Netflix-assets/assets/media/media9.jpg" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 p-0 gy-2">
+          <div class="card border-0">
+            <img src="./Netflix-assets/assets/media/media10.jpg" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 p-0 gy-2">
+          <div class="card border-0">
+            <img src="./Netflix-assets/assets/media/media11.jpg" />
+          </div>
+        </div>
+      </div>
+      <h3 class="text-white mt-5">New Releases</h3>
+      <div class="row container-fluid p-0 mt-3 mb-5">
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 p-0 gy-2">
+          <div class="card border-0">
+            <img src="./Netflix-assets/assets/media/media12.jpg" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 p-0 gy-2">
+          <div class="card border-0">
+            <img src="./Netflix-assets/assets/media/media13.jpg" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 p-0 gy-2">
+          <div class="card border-0">
+            <img src="./Netflix-assets/assets/media/media14.webp" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 p-0 gy-2">
+          <div class="card border-0">
+            <img src="./Netflix-assets/assets/media/media15.jpg" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 p-0 gy-2">
+          <div class="card border-0">
+            <img src="./Netflix-assets/assets/media/media16.webp" />
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 p-0 gy-2">
+          <div class="card border-0">
+            <img src="./Netflix-assets/assets/media/media17.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="container p-0">
+        <div class="d-flex justify-content-center">
+          <div class="d-flex text-secondary fs-3 gap-4 mt-5 justify-content-start w-60">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-youtube"></i>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center text-secondary mt-2">
+          <div class="row d-flex w-50">
+            <div class="col-3 p-0">
+              <a>Audio and Subtitles</a>
+            </div>
+            <div class="col-3 p-0">
+              <a>Audio Description</a>
+            </div>
+            <div class="col-3 p-0">
+              <a>Help Center</a>
+            </div>
+            <div class="col-3 p-0">
+              <a>Gift Cards</a>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center text-secondary mt-3">
+          <div class="row d-flex w-50">
+            <div class="col-3 p-0">
+              <a>Media Center</a>
+            </div>
+            <div class="col-3 p-0">
+              <a>Investor Relations</a>
+            </div>
+            <div class="col-3 p-0">
+              <a>Jobs</a>
+            </div>
+            <div class="col-3 p-0">
+              <a>Terms of Use</a>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center text-secondary mt-3">
+          <div class="row d-flex w-50">
+            <div class="col-3 p-0">
+              <a>Privacy</a>
+            </div>
+            <div class="col-3 p-0">
+              <a>Legal Notices</a>
+            </div>
+            <div class="col-3 p-0">
+              <a>Cookie Preferences</a>
+            </div>
+            <div class="col-3 p-0">
+              <a>Corporate Information</a>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center text-secondary mt-3">
+          <div class="row d-flex w-50">
+            <div class="col-12 p-0">
+              <a>Contact Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center text-secondary mt-3">
+          <div class="row d-flex w-50">
+            <div class="col-12 p-0">
+              <a class="text-secondary text-decoration-none w-border border-secondary p-1">Service Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center text-secondary mt-3">
+          <div class="row d-flex w-50">
+            <div class="col-12 p-0">
+              <a class="text-secondary text-decoration-none">© 1997-2019 Netflix, Inc. {f-0d00fcd2df9c0de}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
